@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nintendo switch</title>
+
+
+  <style>
+    img {
+      width: 500px;
+    }
+
+    #blue{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color:#4267B2 ;
+      float: left;
+      margin: 0 5px;
+    }
+
+    #green{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #02a1a5 ;
+      float: left;
+      margin: 0 5px;
+    }
+
+    #red{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color:#ef7477 ;
+      float: left;
+      margin: 0 5px;
+    }
+
+
+  </style>
+
+
+</head>
+<body>
+
+  <div>
+  <img id="nintendo" src="img/blue.jpg" alt="">
+  </div>
+
+<div>
+  <h2>Pilihan warna:</h2>
+  <div id="blue"></div>
+  <div id="green"></div>
+  <div id="red"></div>
+</div>
+
+
+
+<script>
+
+document.getElementById("blue").onclick = function () {
+  document.getElementById("nintendo").src = "img/blue.jpg";
+}
+
+document.getElementById("green").onclick = function () {
+  document.getElementById("nintendo").src = "img/green.jpg";
+}
+
+document.getElementById("red").onclick = function () {
+  document.getElementById("nintendo").src = "img/red.jpg";
+}
+
+</script>
+</body>
+</html>
