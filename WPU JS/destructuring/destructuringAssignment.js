@@ -26,8 +26,8 @@ const perkenalan = ['halo', 'razan', 16];
 // const [a, b ,...value] = [1, 2, 3, 4, 5];
 // console.log(value);
 
-//destructuring object
 
+//destructuring object
 // const siswa = {nama : "razan",umur : 16}
 
 // const { nama, umur} = siswa;

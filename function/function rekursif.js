@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
         function faktorial(x){
             if(x === 0){
                 return 1;
@@ -25,6 +16,3 @@
         }
 
         Angka(10);
-    </script>
-</body>
-</html>

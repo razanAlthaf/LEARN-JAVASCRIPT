@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>object</title>
-</head>
-
-<body>
-    <script>
         // //object literal
         // let siswa = {
         //     nama : "razan",
@@ -117,8 +106,3 @@
         //     }
         // }
         // let razan = new Siswa("razan", 10);
-    </script>
-
-</body>
-
-</html>

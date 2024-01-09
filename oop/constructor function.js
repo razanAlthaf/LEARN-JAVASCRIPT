@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <script>
     //object
     function car(merk, color, maxSpeed) {
       this.merk = merk;
@@ -35,7 +26,3 @@
     
     car1.maju();
     car2.maju();
-
-  </script>
-</body>
-</html>
