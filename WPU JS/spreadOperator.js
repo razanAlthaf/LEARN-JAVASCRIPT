@@ -16,8 +16,8 @@
 
 
 //meng-copy array
-const ssw = ['razan', 'althaf', 'subrata'];
-const ssw1 = [...ssw];
+// const ssw = ['razan', 'althaf', 'subrata'];
+// const ssw1 = [...ssw];
 
-ssw1[0]= 'pajar';
-console.log(ssw1);
+// ssw1[0]= 'pajar';
+// console.log(ssw1);
