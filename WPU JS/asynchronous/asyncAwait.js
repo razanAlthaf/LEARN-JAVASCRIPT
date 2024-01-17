@@ -3,7 +3,7 @@ const pictures = ['1.jpg', '2.jpg', '3.jpg'];
 
 function login(username) {
     console.log('processing get token now...');
-    return new Promise((success, failed) => {
+    return new Promise((success, failed) => { 
         setTimeout(() => {
             if (username != 'razan')
             failed('sorry wrong data')
